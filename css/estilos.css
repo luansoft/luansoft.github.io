@@ -1,5 +1,3 @@
-@media (max-width: 600px) {
-  
   .container {
     display:flex;
     flex-direction: column;
@@ -86,13 +84,99 @@
     font-size: 20px;
   }
 
-}
+
 /**.aside  {
 *  background-image: url("../img/foto.jpg");
 *  background-repeat: no-repeat;  
 }*/
 
- 
+@media (max-width: 600px) {
+  .container {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .header {
+    background-color: rgb(140, 161, 246);
+    border: 1px solid blue;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  .header h1 {
+    color: white;
+  }
+
+  .navega {
+    display:flex;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.navega .fa-user,
+  nav.navega .fa-school, 
+  nav.navega .fa-house-user,
+  nav.navega .fa-phone,
+  nav.navega .fa-envelope {
+    color: blue;
+    font-size: 25px;
+  }
+
+  nav.navega .fa-user:hover,
+  nav.navega .fa-school:hover,
+  nav.navega .fa-house-user:hover,
+  nav.navega .fa-phone:hover,
+  nav.navega .fa-envelope:hover {
+    color: brown;
+  }
+
+  h2 {
+    background-color: rgb(140, 161, 246);
+    border: 1px solid blue;
+    color: white;
+  }
+
+  .banda {
+    background-color: rgb(196, 206, 243);
+  }
+
+  .foto {
+    border-radius: 60px;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    border: 1px solid royalblue;
+    background-color: rgb(196, 206, 243);
+    text-align: center;
+    
+  }
+
+  .footer p {
+    font-size: small;
+  }
+
+  .footer i {
+    color: white;
+  }
+
+  div.footer .fa-facebook,
+  div.footer .fa-twitter,
+  div.footer .fa-instagram {
+    color: blue;
+    font-size: 20px;
+  }
+}
   
   
   
